@@ -1,0 +1,48 @@
+y<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ - Futuristic Mobile Web</title>
+    <style>
+        body {
+            background-color: #05050a;
+            color: #00f0ff;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 28px;
+            text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+        }
+        p {
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .neon-btn {
+            background: transparent;
+            color: #00f0ff;
+            border: 2px solid #00f0ff;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 0 15px #00f0ff;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .neon-btn:hover {
+            background: #00f0ff;
+            color: #05050a;
+            box-shadow: 0 0 25px #00f0ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>XYZ FUTURISTIC APP</h1>
+    <p>Welcome to your high-tech mobile web demo!</p>
+    <button class="neon-btn" onclick="alert('System Activated!')">EXPLORE</button>
+</body>
+</html>
